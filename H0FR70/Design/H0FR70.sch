@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -13622,6 +13622,8 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <approved hash="102,1,128.27,111.76,VCC,VDDA,,,,"/>
 <approved hash="102,1,120.65,85.09,VCC,VDDA,,,,"/>
 <approved hash="102,1,142.24,54.61,VCC,VDDA,,,,"/>
+<approved hash="102,2,207.01,182.88,VCC,VDDA,,,,"/>
+<approved hash="102,2,186.69,156.21,VCC,VDDA,,,,"/>
 <approved hash="104,1,135.89,119.38,U1,VBAT,VDD,,,"/>
 <approved hash="104,1,135.89,116.84,U1,VDD_0,VDD,,,"/>
 <approved hash="104,1,135.89,114.3,U1,VDD_1,VDD,,,"/>
@@ -13630,19 +13632,19 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <approved hash="104,1,191.77,116.84,U1,VSS_0,GND,,,"/>
 <approved hash="104,1,191.77,114.3,U1,VSS_1,GND,,,"/>
 <approved hash="104,1,191.77,111.76,U1,VSS_2,GND,,,"/>
-<approved hash="104,1,40.64,172.72,P1,VDD1,VDD,,,"/>
-<approved hash="104,1,40.64,167.64,P1,VDD2,VDD,,,"/>
-<approved hash="104,1,40.64,162.56,P1,VDD3,VDD,,,"/>
-<approved hash="104,1,40.64,157.48,P1,VDD4,VDD,,,"/>
-<approved hash="104,1,40.64,152.4,P1,VDD5,VDD,,,"/>
-<approved hash="104,1,40.64,147.32,P1,VDD6,VDD,,,"/>
-<approved hash="104,1,40.64,137.16,P1,GND1,GND,,,"/>
-<approved hash="104,1,40.64,132.08,P1,GND2,GND,,,"/>
-<approved hash="104,1,40.64,127,P1,GND3,GND,,,"/>
-<approved hash="104,1,40.64,121.92,P1,GND4,GND,,,"/>
-<approved hash="104,1,40.64,116.84,P1,GND5,GND,,,"/>
-<approved hash="104,1,40.64,111.76,P1,GND6,GND,,,"/>
+<approved hash="104,1,191.77,109.22,U1,VSS_A,GND,,,"/>
+<approved hash="104,2,189.23,144.78,U2,V+,VDDA,,,"/>
+<approved hash="104,1,33.02,170.18,P2,VDD2,VDD,,,"/>
+<approved hash="104,1,33.02,165.1,P2,VDD3,VDD,,,"/>
+<approved hash="104,1,33.02,160.02,P2,VDD4,VDD,,,"/>
+<approved hash="104,1,33.02,154.94,P2,VDD5,VDD,,,"/>
+<approved hash="104,1,33.02,134.62,P2,GND2,GND,,,"/>
+<approved hash="104,1,33.02,129.54,P2,GND3,GND,,,"/>
+<approved hash="104,1,33.02,124.46,P2,GND4,GND,,,"/>
+<approved hash="104,1,33.02,119.38,P2,GND5,GND,,,"/>
 <approved hash="111,1,198.12,132.08,N$6,,,,,"/>
+<approved hash="113,1,163.83,144.977,U1,,,,,"/>
+<approved hash="113,2,60.2141,58.42,X2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
