@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -808,21 +808,6 @@
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
-<symbol name="ZENER">
-<wire x1="-2.413" y1="-1.905" x2="-2.413" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.413" y1="0" x2="-2.413" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-2.413" y1="1.905" x2="0.762" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="0" x2="-2.413" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="1.905" x2="0.762" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="0" x2="0.762" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-1.905" x2="1.651" y2="-2.794" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="1.905" x2="-0.127" y2="2.794" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="0" x2="2.032" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.413" y1="0" x2="-2.667" y2="0" width="0.1524" layer="94"/>
-<pin name="1" x="-7.62" y="0" visible="off" length="middle"/>
-<pin name="2" x="6.35" y="0" visible="off" length="middle" rot="R180"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="C-0603" prefix="C" uservalue="yes">
@@ -1187,22 +1172,6 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
-</deviceset>
-<deviceset name="BZT52C2V0S-7-F">
-<gates>
-<gate name="G$1" symbol="ZENER" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOD-323">
-<connects>
-<connect gate="G$1" pin="1" pad="+"/>
-<connect gate="G$1" pin="2" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
 </deviceset>
 </devicesets>
 </library>
@@ -1994,7 +1963,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="SUPPLY2" library="supply2" deviceset="VCC" device="" value="VDDA"/>
 <part name="SUPPLY14" library="supply2" deviceset="VCC" device="" value="VDDA"/>
 <part name="X2" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK500/3" device="" package3d_urn="urn:adsk.eagle:package:9883/1"/>
-<part name="SUPPLY15" library="supply2" deviceset="AGND" device="" value="VSSA"/>
 <part name="R12" library="Hexabitz" deviceset="R-0603" device="" value="10.0K">
 <attribute name="MFN" value="Yageo"/>
 <attribute name="MPN" value="RC0603JR-0710KL"/>
@@ -2021,12 +1989,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <attribute name="MPN" value="RC0603JR-070RL"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/rc0603jr-070rl-yageo-1241539?r=sp&amp;s=X2NteqRjRNWrnx42Y0aliA"/>
 <attribute name="RESISTANCE" value="0.0 Ohm"/>
-</part>
-<part name="D4" library="Hexabitz" deviceset="BZT52C2V0S-7-F" device="">
-<attribute name="DESCRIPTION" value="BZT52C2V0S Series 2 V 10 mA Surface Mount Zener Diode - SOD-323"/>
-<attribute name="MFN" value="Diodes Inc."/>
-<attribute name="MPN" value="BZT52C2V0S-7-F"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/bzt52c2v0s-7-f-diodes+inc.-7151792?r=sp"/>
 </part>
 </parts>
 <sheets>
@@ -4388,7 +4350,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="168.91" y1="8.128" x2="214.63" y2="8.128" width="0.1524" layer="205"/>
 <wire x1="231.14" y1="18.288" x2="231.14" y2="22.86" width="0.1524" layer="205"/>
 <text x="242.6462" y="6.1722" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
-<text x="170.3578" y="11.2014" size="1.9304" layer="101" font="vector">SPST MOSFET Switch  20A 40V</text>
+<text x="170.3578" y="11.2014" size="1.9304" layer="101" font="vector">SPST MOSFET Switch  20A 12V</text>
 <text x="181.8278" y="5.0114" size="1.9304" layer="101" font="vector">Amir Tabbakh</text>
 <text x="27.94" y="198.12" size="1.778" layer="150">VDD=3.3 Volts</text>
 </plain>
@@ -13261,7 +13223,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <text x="215.9" y="5.3848" size="1.9304" layer="100" font="vector">Sheet   of</text>
 <text x="199.4662" y="19.6342" size="1.9304" layer="100" font="vector">Title</text>
 <text x="180.9242" y="19.6342" size="1.9304" layer="102" font="vector">H0FR7</text>
-<text x="170.3578" y="11.2014" size="1.9304" layer="101" font="vector">SPST MOSFET Switch  20A 40V</text>
+<text x="170.3578" y="11.2014" size="1.9304" layer="101" font="vector">SPST MOSFET Switch  20A 12V</text>
 <text x="206.3242" y="19.6342" size="1.9304" layer="101" font="vector">H0FR7_Frontend</text>
 <wire x1="168.91" y1="3.81" x2="168.91" y2="8.128" width="0.1524" layer="205"/>
 <wire x1="168.91" y1="8.128" x2="168.91" y2="18.288" width="0.1524" layer="205"/>
@@ -13287,8 +13249,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <text x="22.86" y="187.96" size="1.778" layer="150">VDD=3.3 Volts</text>
 <text x="34.29" y="68.58" size="2.1844" layer="150">Power and Load Connector</text>
 <text x="189.23" y="102.87" size="1.778" layer="150">Gain = 100 V/V</text>
-<text x="124.46" y="119.38" size="1.778" layer="95">D4</text>
-<text x="124.46" y="114.3" size="1.778" layer="95">2V_10A</text>
+<text x="143.51" y="168.91" size="1.778" layer="150">V_load=(3.3-12)</text>
 </plain>
 <instances>
 <instance part="Q1" gate="G$1" x="104.14" y="132.08" smashed="yes">
@@ -13381,9 +13342,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <attribute name="NAME" x="62.23" y="49.149" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="64.77" y="44.577" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="SUPPLY15" gate="G$1" x="120.65" y="92.71" smashed="yes">
-<attribute name="VALUE" x="121.285" y="84.963" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R12" gate="G$1" x="52.07" y="129.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="48.26" y="132.3086" size="1.778" layer="95"/>
 <attribute name="VALUE" x="48.26" y="124.968" size="1.778" layer="96"/>
@@ -13400,12 +13358,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <attribute name="NAME" x="127" y="146.2786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="125.73" y="140.208" size="1.778" layer="96"/>
 </instance>
-<instance part="D4" gate="G$1" x="120.65" y="118.11" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" x="120.65" y="118.11" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFN" x="120.65" y="118.11" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="120.65" y="118.11" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="OCTOPART_URL" x="120.65" y="118.11" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -13420,8 +13372,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <junction x="120.65" y="143.51"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="D4" gate="G$1" pin="2"/>
-<wire x1="120.65" y1="124.46" x2="120.65" y2="143.51" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S" class="0">
@@ -13583,11 +13533,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="128.27" y1="26.67" x2="128.27" y2="31.75" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="AGND"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-</segment>
-<segment>
-<pinref part="SUPPLY15" gate="G$1" pin="AGND"/>
-<pinref part="D4" gate="G$1" pin="1"/>
-<wire x1="120.65" y1="110.49" x2="120.65" y2="95.25" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
