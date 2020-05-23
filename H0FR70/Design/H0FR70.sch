@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1708,7 +1708,7 @@ RoHS : Compliant,</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AK500/3" urn="urn:adsk.eagle:component:20389206/2" prefix="X" uservalue="yes" library_version="7">
+<deviceset name="AK500/3" urn="urn:adsk.eagle:component:20389206/3" prefix="X" uservalue="yes" library_version="8">
 <description>&lt;b&gt;CONNECTOR&lt;/b&gt;</description>
 <gates>
 <gate name="-1" symbol="KL" x="0" y="5.08" addlevel="always"/>
@@ -1727,11 +1727,10 @@ RoHS : Compliant,</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="3" constant="no"/>
+<attribute name="DESCRIPTION" value="Altech 34.403 PCB Terminal, Front wire, 3 Pole, 10.00mm AK500/03DS-10.0-V, 20A, 300V, grey" constant="no"/>
+<attribute name="MFN" value="Altech" constant="no"/>
+<attribute name="MPN" value="AK500/3" constant="no"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/30.703-altech-46803?r=sp" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2025,15 +2024,15 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P2" library="hexabitz_connectors" library_urn="urn:adsk.eagle:library:20064578" deviceset="HEXABIT_?_NO_P6_P7_P12" device="17.32" package3d_urn="urn:adsk.eagle:package:20064634/2"/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R8" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/3" value="2k2">
+<part name="R8" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/3" value="1k">
 <attribute name="MFN" value="Yageo"/>
-<attribute name="MPN" value="RC0603FR-07270RL"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/search?q=RC0603FR-07270RL&amp;start=0"/>
-<attribute name="RESISTANCE" value="270.0 Ohm"/>
+<attribute name="MPN" value="RC0603JR-071KL"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/rc0603jr-071kl-yageo-55402888?r=sp"/>
+<attribute name="RESISTANCE" value="1k"/>
 <attribute name="TOLERANCE" value="1%"/>
 </part>
 <part name="SUPPLY1" library="supply2" deviceset="AGND" device="" value="VSSA"/>
-<part name="D2" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" deviceset="VLMS1300-GS08" device="" package3d_urn="urn:adsk.eagle:package:20064571/2" value="Orange">
+<part name="D2" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" deviceset="VLMS1300-GS08" device="" package3d_urn="urn:adsk.eagle:package:20064571/2" value="RED">
 <attribute name="MFN" value="Vishay"/>
 <attribute name="MPN" value="VLMO1300-GS08 "/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/vlmo1300-gs08-vishay-21709200?r=sp#"/>

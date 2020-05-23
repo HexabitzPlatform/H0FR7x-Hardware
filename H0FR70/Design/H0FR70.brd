@@ -170,7 +170,6 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwzNTMyMTg" projecturn="a.YnVzaW5lc3M6Z21haWwzNTMyMTgjMjAxOTA5MjMyMTcyMjExMDY" f3durn="urn:adsk.wipprod:dm.lineage:sew10N-4S7Ct2bmrGT97Lw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="dc9f3fee-6cdd-42b4-8716-bbd353acc209" lastsyncedrevisionid="dc9f3fee-6cdd-42b4-8716-bbd353acc209" lastboardhashguid="2d8d3689-180d-8ab5-3f41-4ff3264f0472" lastpushedtime="2020-05-21T21:19:25Z" linktopcb3d="%12"/>
 <plain>
 <text x="47.5112" y="35.7238375" size="1.9304" layer="26" rot="MR0">B</text>
 <text x="46.5542375" y="33.595259375" size="1.9304" layer="26" rot="MR180">R</text>
@@ -1682,16 +1681,16 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="44.831" y="32.379" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="P2" library="hexabitz_connectors" library_urn="urn:adsk.eagle:library:20064578" package="HEXABIT_17.32_NO_P6_P7_P12" package3d_urn="urn:adsk.eagle:package:20064634/2" value="HEXABIT_17.32_NO_P6_P7_P12" x="34.671" y="34.671" smashed="yes"/>
-<element name="R8" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" package="R-0603" package3d_urn="urn:adsk.eagle:package:1435818/3" value="2k2" x="38.608" y="36.068" smashed="yes" rot="R90">
+<element name="R8" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" package="R-0603" package3d_urn="urn:adsk.eagle:package:1435818/3" value="1k" x="38.608" y="36.068" smashed="yes" rot="R90">
 <attribute name="MFN" value="Yageo" x="32.131" y="36.068" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0603FR-07270RL" x="32.131" y="36.068" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0603JR-071KL" x="32.131" y="36.068" size="1.016" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="39.103809375" y="32.93160625" size="1.016" layer="25" rot="R90"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/search?q=RC0603FR-07270RL&amp;start=0" x="32.131" y="36.068" size="1.016" layer="27" rot="R90" display="off"/>
-<attribute name="RESISTANCE" value="270.0 Ohm" x="32.131" y="36.068" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/rc0603jr-071kl-yageo-55402888?r=sp" x="32.131" y="36.068" size="1.016" layer="27" rot="R90" display="off"/>
+<attribute name="RESISTANCE" value="1k" x="32.131" y="36.068" size="1.016" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="32.131" y="36.068" size="1.016" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="40.498015625" y="34.530028125" size="1.016" layer="27" rot="R90"/>
 </element>
-<element name="D2" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" package="VLMS1300-GS08" package3d_urn="urn:adsk.eagle:package:20064571/2" value="Orange" x="36.957" y="35.941" smashed="yes" rot="R180">
+<element name="D2" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" package="VLMS1300-GS08" package3d_urn="urn:adsk.eagle:package:20064571/2" value="RED" x="36.957" y="35.941" smashed="yes" rot="R180">
 <attribute name="MFN" value="Vishay" x="43.053" y="29.464" size="1.016" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="VLMO1300-GS08 " x="43.053" y="29.464" size="1.016" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="36.425" y="34.3215" size="1.016" layer="25" rot="R270"/>
@@ -1699,11 +1698,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="38.957" y="38.816" size="1.016" layer="27" rot="R180"/>
 </element>
 <element name="X2" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" package="AK500/3" package3d_urn="urn:adsk.eagle:package:20388955/4" override_package3d_urn="urn:adsk.eagle:package:20407613/3" override_package_urn="urn:adsk.eagle:footprint:9855/1" value="" x="34.671" y="45.212" smashed="yes" rot="R180">
-<attribute name="MF" value="" x="34.671" y="45.212" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="34.671" y="45.212" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="34.671" y="45.212" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="34.671" y="45.212" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="POPULARITY" value="3" x="34.671" y="45.212" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="Altech 34.403 PCB Terminal, Front wire, 3 Pole, 10.00mm AK500/03DS-10.0-V, 20A, 300V, grey" x="34.671" y="45.212" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFN" value="Altech" x="34.671" y="45.212" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="AK500/3" x="34.671" y="45.212" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/30.703-altech-46803?r=sp" x="34.671" y="45.212" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="42.2656" y="50.927" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R12" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" package="R-0603" package3d_urn="urn:adsk.eagle:package:1435818/3" value="10.0K" x="30.48" y="21.59" smashed="yes" rot="R90">
@@ -2364,11 +2362,6 @@ design rules under a new name.</description>
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports Fusion synchronisation.
-This feature will not be available in this version and saving
-the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
