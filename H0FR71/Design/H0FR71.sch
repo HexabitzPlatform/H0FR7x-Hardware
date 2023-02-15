@@ -15078,7 +15078,7 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <text x="22.86" y="187.96" size="1.778" layer="150">VDD=3.3 Volts</text>
 <text x="21.59" y="107.95" size="2.1844" layer="150">Power and Load Connector</text>
 <text x="189.23" y="102.87" size="1.778" layer="150">Gain = 100 V/V</text>
-<text x="143.51" y="168.91" size="1.778" layer="150">V_load=(3.3-18)</text>
+<text x="144.78" y="186.69" size="1.778" layer="150">V_load=(3.3-18) Volts</text>
 </plain>
 <instances>
 <instance part="Q2" gate="G$1" x="140.97" y="140.97" smashed="yes">
