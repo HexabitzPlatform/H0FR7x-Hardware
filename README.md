@@ -1,2 +1,2 @@
-# H0FR71-Hardware
-Hexabitz SPST MOSFET Switch Module Hardware Design
+# H0FR7x-Hardware
+Hexabitz SPST 18V/20A MOSFET Switch Module Hardware Design
