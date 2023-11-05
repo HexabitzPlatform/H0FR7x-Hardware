@@ -629,22 +629,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="-0.635" y="-1.905" size="1.016" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="C-0603-POL" urn="urn:adsk.eagle:footprint:19666391/1" library_version="65">
+<package name="C-0603-POL" urn="urn:adsk.eagle:footprint:19666391/1" locally_modified="yes" library_version="67" library_locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <wire x1="-1.58" y1="0.97" x2="-1.58" y2="-0.98" width="0.127" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<wire x1="-0.508" y1="0.0508" x2="0.4064" y2="0.0508" width="0.3048" layer="21"/>
 </package>
 <package name="DPAK-3" urn="urn:adsk.eagle:footprint:19882043/1" library_version="1">
 <description>&lt;b&gt;DPAK-3&lt;/b&gt; (acc. to. ON Semiconductor specs)</description>
@@ -684,9 +681,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <vertex x="2.72" y="1.36"/>
 </polygon>
 </package>
-<package name="FB-TDK_MMZ1608Y300B" urn="urn:adsk.eagle:footprint:19666363/1" library_version="1">
-<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
-<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
+<package name="FB-TDK_MMZ1608Y300B" urn="urn:adsk.eagle:footprint:19666363/1" locally_modified="yes" library_version="67" library_locally_modified="yes">
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
@@ -695,8 +690,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <text x="-0.635" y="0.635" size="1.016" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<wire x1="-0.6858" y1="-0.0254" x2="0.6858" y2="-0.0254" width="0.3048" layer="21"/>
 </package>
 <package name="R1206" urn="urn:adsk.eagle:footprint:42296734/1" library_version="66" library_locally_modified="yes">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
@@ -758,6 +752,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <rectangle x1="-2.54" y1="-17.99" x2="7.46125" y2="-0.9525" layer="40"/>
 </package>
+<package name="C-0805" urn="urn:adsk.eagle:footprint:19666390/1" locally_modified="yes" library_version="67" library_locally_modified="yes">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
+<wire x1="-0.6096" y1="-0.0254" x2="0.762" y2="-0.0254" width="0.3048" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="R-0402" urn="urn:adsk.eagle:package:19666455/3" type="model" library_version="66" library_locally_modified="yes">
@@ -772,7 +779,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="C-0402"/>
 </packageinstances>
 </package3d>
-<package3d name="C-0603-POL" urn="urn:adsk.eagle:package:19666490/2" type="model" library_version="65">
+<package3d name="C-0603-POL" urn="urn:adsk.eagle:package:19666490/2" type="model" library_version="67" library_locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="C-0603-POL"/>
@@ -784,7 +791,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="DPAK-3"/>
 </packageinstances>
 </package3d>
-<package3d name="FB-TDK_MMZ1608Y300B" urn="urn:adsk.eagle:package:19666466/2" type="model" library_version="64" library_locally_modified="yes">
+<package3d name="FB-TDK_MMZ1608Y300B" urn="urn:adsk.eagle:package:19666466/2" type="model" library_version="67" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="FB-TDK_MMZ1608Y300B"/>
 </packageinstances>
@@ -810,6 +817,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <description>&lt;b&gt;10x15&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="CAPPRD500W60D1000H1700"/>
+</packageinstances>
+</package3d>
+<package3d name="C-0805" urn="urn:adsk.eagle:package:19666489/3" type="model" library_version="67" library_locally_modified="yes">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
+<packageinstances>
+<packageinstance name="C-0805"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -965,6 +978,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <vertex x="6.858" y="2.54"/>
 </polygon>
 </symbol>
+<symbol name="C-0603-1" urn="urn:adsk.eagle:symbol:19857692/1" library_version="62">
+<wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
+<text x="1.524" y="2.921" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.524" y="-2.159" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.032" y1="0.508" x2="2.032" y2="1.016" layer="94"/>
+<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="R-0402" urn="urn:adsk.eagle:component:19857721/2" prefix="R" uservalue="yes" library_version="66" library_locally_modified="yes">
@@ -1020,7 +1043,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="C-0603-POL" urn="urn:adsk.eagle:component:19857734/2" library_version="65">
+<deviceset name="C-0603-POL" urn="urn:adsk.eagle:component:19857734/2" library_version="67" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="C-0603-POL" x="0" y="0"/>
 </gates>
@@ -1072,7 +1095,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="FB-TDK_MMZ1608Y300B" urn="urn:adsk.eagle:component:19857723/2" prefix="FB" uservalue="yes" library_version="64" library_locally_modified="yes">
+<deviceset name="FB-TDK_MMZ1608Y300B" urn="urn:adsk.eagle:component:19857723/2" prefix="FB" uservalue="yes" library_version="67" library_locally_modified="yes">
 <description>Ferrite Beads Multi-Layer 30Ohm 25% 100MHz 1.5A 50mOhm DCR 0603</description>
 <gates>
 <gate name="G$1" symbol="FB-TDK_MMZ1608Y300B" x="0" y="0"/>
@@ -1212,6 +1235,33 @@ Source: &lt;a href="https://www.arrow.com/en/products/esh477m035ah3aa/kemet-corp
 <attribute name="MANUFACTURER_PART_NUMBER" value="ESH477M035AH3AA" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="80-ESH477M035AH3AA" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/ESH477M035AH3AA?qs=w9hhVRgtvfm6jijrpCvP%2Fg%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C-0805" urn="urn:adsk.eagle:component:19857729/1" prefix="C" library_version="67" library_locally_modified="yes">
+<description>CAP CER 10% X7R 0805</description>
+<gates>
+<gate name="G$1" symbol="C-0603-1" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="C-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19666489/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CAPACITANCE" value="" constant="no"/>
+<attribute name="MFN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OCTOPART_URL" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VOLTAGE_RATING" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4161,6 +4211,11 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <part name="J1" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="691213710003" device="" package3d_urn="urn:adsk.eagle:package:41854635/3"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C17" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0805" device="" package3d_urn="urn:adsk.eagle:package:19666489/3">
+<attribute name="CAPACITANCE" value="10uF"/>
+<attribute name="MPN" value="GRM21BR6YA106ME43K"/>
+<attribute name="VOLTAGE_RATING" value="35v"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -15382,9 +15437,9 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
     Connector</text>
 <text x="93.98" y="46.355" size="3.81" layer="101" ratio="31">Load driver</text>
 <text x="194.31" y="43.815" size="3.81" layer="101" ratio="31">Current-Shunt Monitor </text>
-<text x="104.775" y="141.605" size="3.81" layer="101" ratio="31">Input Power 
+<text x="88.265" y="140.97" size="3.81" layer="101" ratio="31">Input Power 
    Coupling</text>
-<text x="151.13" y="140.97" size="3.81" layer="101" ratio="31">Driver Power 
+<text x="144.145" y="140.97" size="3.81" layer="101" ratio="31">Driver Power 
   Coupling</text>
 <text x="187.96" y="146.05" size="3.81" layer="101" ratio="31">U2 Coupling</text>
 <text x="229.235" y="139.7" size="3.81" layer="101" ratio="31">Driver Output
@@ -15497,28 +15552,28 @@ Gain Error = 0.89%</text>
 <instance part="SUPPLY12" gate="G$1" x="62.865" y="37.465" smashed="yes">
 <attribute name="VALUE" x="60.198" y="34.29" size="1.778" layer="96"/>
 </instance>
-<instance part="C6" gate="G$1" x="102.87" y="179.705" smashed="yes" rot="R270">
-<attribute name="NAME" x="106.68" y="175.895" size="1.778" layer="95" align="center-left"/>
-<attribute name="CAPACITANCE" x="106.68" y="172.085" size="1.778" layer="96"/>
-<attribute name="VOLT_RATING" x="106.68" y="169.545" size="1.778" layer="96"/>
+<instance part="C6" gate="G$1" x="86.36" y="179.07" smashed="yes" rot="R270">
+<attribute name="NAME" x="90.17" y="175.26" size="1.778" layer="95" align="center-left"/>
+<attribute name="CAPACITANCE" x="90.17" y="171.45" size="1.778" layer="96"/>
+<attribute name="VOLT_RATING" x="90.17" y="168.91" size="1.778" layer="96"/>
 </instance>
-<instance part="C9" gate="G$1" x="118.11" y="174.625" smashed="yes" rot="R180">
-<attribute name="NAME" x="120.904" y="175.006" size="1.778" layer="95"/>
-<attribute name="VALUE" x="116.586" y="176.784" size="1.778" layer="96" rot="R180"/>
-<attribute name="CAPACITANCE" x="120.65" y="172.085" size="1.778" layer="96"/>
-<attribute name="VOLTAGE_RATING" x="120.65" y="169.545" size="1.778" layer="96"/>
+<instance part="C9" gate="G$1" x="101.6" y="173.99" smashed="yes" rot="R180">
+<attribute name="NAME" x="104.394" y="174.371" size="1.778" layer="95"/>
+<attribute name="VALUE" x="100.076" y="176.149" size="1.778" layer="96" rot="R180"/>
+<attribute name="CAPACITANCE" x="104.14" y="171.45" size="1.778" layer="96"/>
+<attribute name="VOLTAGE_RATING" x="104.14" y="168.91" size="1.778" layer="96"/>
 </instance>
-<instance part="C12" gate="G$1" x="133.35" y="174.625" smashed="yes" rot="R180">
-<attribute name="NAME" x="136.144" y="175.006" size="1.778" layer="95"/>
-<attribute name="VALUE" x="131.826" y="176.784" size="1.778" layer="96" rot="R180"/>
-<attribute name="CAPACITANCE" x="135.89" y="172.085" size="1.778" layer="96"/>
-<attribute name="VOLTAGE_RATING" x="135.89" y="169.545" size="1.778" layer="96"/>
+<instance part="C12" gate="G$1" x="116.84" y="173.99" smashed="yes" rot="R180">
+<attribute name="NAME" x="119.634" y="174.371" size="1.778" layer="95"/>
+<attribute name="VALUE" x="115.316" y="176.149" size="1.778" layer="96" rot="R180"/>
+<attribute name="CAPACITANCE" x="119.38" y="171.45" size="1.778" layer="96"/>
+<attribute name="VOLTAGE_RATING" x="119.38" y="168.91" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="1" x="118.11" y="191.135" smashed="yes">
-<attribute name="VALUE" x="120.65" y="194.945" size="1.778" layer="96" rot="R180"/>
+<instance part="P+3" gate="1" x="101.6" y="190.5" smashed="yes">
+<attribute name="VALUE" x="104.14" y="194.31" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY23" gate="G$1" x="118.11" y="157.48" smashed="yes">
-<attribute name="VALUE" x="115.443" y="154.305" size="1.778" layer="96"/>
+<instance part="SUPPLY23" gate="G$1" x="101.6" y="156.845" smashed="yes">
+<attribute name="VALUE" x="98.933" y="153.67" size="1.778" layer="96"/>
 </instance>
 <instance part="C15" gate="G$1" x="156.21" y="174.625" smashed="yes" rot="R180">
 <attribute name="NAME" x="159.004" y="175.006" size="1.778" layer="95"/>
@@ -15532,11 +15587,11 @@ Gain Error = 0.89%</text>
 <attribute name="CAPACITANCE" x="173.99" y="172.085" size="1.778" layer="96"/>
 <attribute name="VOLTAGE_RATING" x="173.99" y="169.545" size="1.778" layer="96"/>
 </instance>
-<instance part="P+4" gate="1" x="163.83" y="191.135" smashed="yes">
-<attribute name="VALUE" x="166.37" y="194.945" size="1.778" layer="96" rot="R180"/>
+<instance part="P+4" gate="1" x="156.21" y="191.135" smashed="yes">
+<attribute name="VALUE" x="158.75" y="194.945" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY24" gate="G$1" x="163.83" y="157.48" smashed="yes">
-<attribute name="VALUE" x="161.163" y="154.305" size="1.778" layer="96"/>
+<instance part="SUPPLY24" gate="G$1" x="156.21" y="157.48" smashed="yes">
+<attribute name="VALUE" x="153.543" y="154.305" size="1.778" layer="96"/>
 </instance>
 <instance part="R10" gate="G$1" x="181.61" y="81.915" smashed="yes" rot="R180">
 <attribute name="NAME" x="183.515" y="86.1314" size="1.778" layer="95" rot="R180"/>
@@ -15553,6 +15608,11 @@ Gain Error = 0.89%</text>
 <instance part="J1" gate="G$1" x="32.385" y="167.64" smashed="yes" rot="MR270">
 <attribute name="NAME" x="32.585" y="184.437" size="1.778" layer="95" rot="MR180" align="bottom-right"/>
 <attribute name="VALUE" x="34.965" y="172.47" size="1.016" layer="96" rot="MR270" align="bottom-right"/>
+</instance>
+<instance part="C17" gate="G$1" x="142.24" y="172.085" smashed="yes">
+<attribute name="NAME" x="145.034" y="175.641" size="1.778" layer="95"/>
+<attribute name="CAPACITANCE" x="144.78" y="172.72" size="1.778" layer="96"/>
+<attribute name="VOLTAGE_RATING" x="144.78" y="170.18" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -15689,27 +15749,29 @@ Gain Error = 0.89%</text>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="+"/>
-<wire x1="102.87" y1="179.705" x2="102.87" y2="183.515" width="0.1524" layer="91"/>
-<wire x1="102.87" y1="183.515" x2="118.11" y2="183.515" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="179.07" x2="86.36" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="182.88" x2="101.6" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="118.11" y1="183.515" x2="118.11" y2="177.165" width="0.1524" layer="91"/>
-<wire x1="133.35" y1="177.165" x2="133.35" y2="183.515" width="0.1524" layer="91"/>
-<wire x1="133.35" y1="183.515" x2="118.11" y2="183.515" width="0.1524" layer="91"/>
-<junction x="118.11" y="183.515"/>
+<wire x1="101.6" y1="182.88" x2="101.6" y2="176.53" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="176.53" x2="116.84" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="182.88" x2="101.6" y2="182.88" width="0.1524" layer="91"/>
+<junction x="101.6" y="182.88"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 <pinref part="P+3" gate="1" pin="+VS"/>
-<wire x1="118.11" y1="188.595" x2="118.11" y2="183.515" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="187.96" x2="101.6" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="163.83" y1="183.515" x2="156.21" y2="183.515" width="0.1524" layer="91"/>
-<wire x1="156.21" y1="183.515" x2="156.21" y2="177.165" width="0.1524" layer="91"/>
 <wire x1="171.45" y1="177.165" x2="171.45" y2="183.515" width="0.1524" layer="91"/>
-<wire x1="171.45" y1="183.515" x2="163.83" y2="183.515" width="0.1524" layer="91"/>
-<junction x="163.83" y="183.515"/>
+<wire x1="171.45" y1="183.515" x2="156.21" y2="183.515" width="0.1524" layer="91"/>
+<junction x="156.21" y="183.515"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 <pinref part="P+4" gate="1" pin="+VS"/>
-<wire x1="163.83" y1="188.595" x2="163.83" y2="183.515" width="0.1524" layer="91"/>
+<wire x1="156.21" y1="188.595" x2="156.21" y2="183.515" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="177.165" x2="142.24" y2="183.515" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="183.515" x2="156.21" y2="183.515" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="156.21" y1="177.165" x2="156.21" y2="183.515" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="S"/>
@@ -15778,27 +15840,29 @@ Gain Error = 0.89%</text>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="-"/>
-<wire x1="102.87" y1="167.005" x2="102.87" y2="163.195" width="0.1524" layer="91"/>
-<wire x1="102.87" y1="163.195" x2="118.11" y2="163.195" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="166.37" x2="86.36" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="162.56" x2="101.6" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="118.11" y1="163.195" x2="118.11" y2="169.545" width="0.1524" layer="91"/>
-<wire x1="133.35" y1="169.545" x2="133.35" y2="163.195" width="0.1524" layer="91"/>
-<wire x1="133.35" y1="163.195" x2="118.11" y2="163.195" width="0.1524" layer="91"/>
-<junction x="118.11" y="163.195"/>
+<wire x1="101.6" y1="162.56" x2="101.6" y2="168.91" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="168.91" x2="116.84" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="162.56" x2="101.6" y2="162.56" width="0.1524" layer="91"/>
+<junction x="101.6" y="162.56"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <pinref part="SUPPLY23" gate="G$1" pin="VSSA"/>
-<wire x1="118.11" y1="160.02" x2="118.11" y2="163.195" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="159.385" x2="101.6" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="163.83" y1="163.195" x2="156.21" y2="163.195" width="0.1524" layer="91"/>
-<wire x1="156.21" y1="163.195" x2="156.21" y2="169.545" width="0.1524" layer="91"/>
 <wire x1="171.45" y1="169.545" x2="171.45" y2="163.195" width="0.1524" layer="91"/>
-<wire x1="171.45" y1="163.195" x2="163.83" y2="163.195" width="0.1524" layer="91"/>
-<junction x="163.83" y="163.195"/>
+<wire x1="171.45" y1="163.195" x2="156.21" y2="163.195" width="0.1524" layer="91"/>
+<junction x="156.21" y="163.195"/>
 <pinref part="C16" gate="G$1" pin="1"/>
 <pinref part="SUPPLY24" gate="G$1" pin="VSSA"/>
-<wire x1="163.83" y1="160.02" x2="163.83" y2="163.195" width="0.1524" layer="91"/>
+<wire x1="156.21" y1="160.02" x2="156.21" y2="163.195" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="2"/>
+<wire x1="156.21" y1="163.195" x2="142.24" y2="163.195" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="163.195" x2="142.24" y2="169.545" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="156.21" y1="163.195" x2="156.21" y2="169.545" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
