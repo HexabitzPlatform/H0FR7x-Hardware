@@ -3369,7 +3369,7 @@ design rules under a new name.</description>
 <attribute name="TOLERANCE" value="5%" x="4.699" y="4.191" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="3.161028125" y="6.081015625" size="1.016" layer="28" rot="MR180"/>
 </element>
-<element name="R5" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" package="R-0402" package3d_urn="urn:adsk.eagle:package:19666455/3" value="150" x="5.842" y="5.969" smashed="yes" rot="MR0">
+<element name="R5" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" package="R-0402" package3d_urn="urn:adsk.eagle:package:19666455/3" value="100" x="5.842" y="5.969" smashed="yes" rot="MR0">
 <attribute name="MFN" value="Yageo" x="5.842" y="5.969" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="RC0603JR-07680KL" x="5.842" y="5.969" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="8.59739375" y="5.600190625" size="0.8128" layer="26" rot="MR0"/>
