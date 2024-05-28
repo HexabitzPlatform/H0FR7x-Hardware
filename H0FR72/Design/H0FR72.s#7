@@ -7993,11 +7993,11 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <attribute name="NAME" x="249.555" y="144.145" size="1.778" layer="95"/>
 <attribute name="VALUE" x="241.3" y="137.16" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY13" gate="G$1" x="232.41" y="132.08" smashed="yes" rot="R270">
-<attribute name="VALUE" x="235.585" y="131.445" size="1.778" layer="96"/>
+<instance part="SUPPLY13" gate="G$1" x="227.33" y="132.08" smashed="yes" rot="R270">
+<attribute name="VALUE" x="230.505" y="131.445" size="1.778" layer="96"/>
 </instance>
-<instance part="GND9" gate="1" x="241.3" y="129.54" smashed="yes" rot="R90">
-<attribute name="VALUE" x="241.935" y="128.905" size="1.778" layer="96"/>
+<instance part="GND9" gate="1" x="236.22" y="129.54" smashed="yes" rot="R90">
+<attribute name="VALUE" x="236.855" y="128.905" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY11" gate="G$1" x="172.085" y="69.215" smashed="yes">
 <attribute name="VALUE" x="169.418" y="66.04" size="1.778" layer="96"/>
@@ -8102,7 +8102,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <segment>
 <pinref part="SUPPLY13" gate="G$1" pin="VDD"/>
 <pinref part="U1" gate="A" pin="VDDIO2"/>
-<wire x1="229.87" y1="132.08" x2="215.9" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="224.79" y1="132.08" x2="215.9" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="FB1" gate="G$1" pin="1"/>
@@ -8143,7 +8143,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <segment>
 <pinref part="U1" gate="A" pin="VSS"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="215.9" y1="129.54" x2="238.76" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="129.54" x2="233.68" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="PB13"/>
@@ -8345,8 +8345,8 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 </net>
 <net name="CURRENT_SENSE" class="0">
 <segment>
-<wire x1="144.78" y1="152.4" x2="140.97" y2="152.4" width="0.1524" layer="91"/>
-<label x="140.97" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="144.78" y1="152.4" x2="143.51" y2="152.4" width="0.1524" layer="91"/>
+<label x="143.51" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="A" pin="PA0"/>
 </segment>
 </net>

@@ -14429,7 +14429,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <text x="15.24" y="148.59" size="3.81" layer="88" rot="MR180"></text>
 <text x="34.29" y="200.66" size="1.778" layer="150"></text>
 <text x="10.16" y="205.74" size="2.54" layer="89" font="vector" ratio="11" distance="46">VS = up to 20V</text>
-<text x="5.08" y="180.34" size="3.81" layer="101" ratio="31">Power Connector</text>
+<text x="5.08" y="179.07" size="3.81" layer="101" ratio="31">Power Connector</text>
 <text x="212.09" y="87.63" size="3.81" layer="101" ratio="31">Current Sense</text>
 <text x="170.5102" y="19.6342" size="1.9304" layer="100" font="vector">Module</text>
 <text x="215.9" y="10.2108" size="1.9304" layer="100" font="vector">Size</text>
@@ -14467,7 +14467,8 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <text x="188.595" y="113.03" size="3.81" layer="101" ratio="31">Load Connector</text>
 <text x="113.03" y="132.08" size="1.778" layer="91">1N4148W-7-F</text>
 <text x="132.715" y="143.51" size="1.778" layer="91">18V 0.5W</text>
-<text x="212.725" y="104.775" size="2.54" layer="89" font="vector" ratio="11" distance="46">I Load = up to 20A</text>
+<text x="212.725" y="104.775" size="2.54" layer="89" font="vector" ratio="11" distance="46">I_Load = up to 20A</text>
+<text x="130.175" y="156.21" size="1.778" layer="91">check footprint</text>
 </plain>
 <instances>
 <instance part="Q2" gate="G$1" x="156.845" y="125.095" smashed="yes">
@@ -14551,7 +14552,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 </instance>
 <instance part="TRIMBLE-LOGO1" gate="G$1" x="256.54" y="12.7" smashed="yes"/>
 <instance part="LOAD" gate="G$1" x="207.645" y="104.775" smashed="yes" rot="MR0">
-<attribute name="NAME" x="207.01" y="110.617" size="1.27" layer="95" rot="MR0"/>
+<attribute name="NAME" x="203.835" y="111.633" size="1.27" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="210.185" y="100.457" size="1.27" layer="96" rot="MR0"/>
 </instance>
 <instance part="SUPPLY" gate="G$1" x="26.035" y="192.405" smashed="yes" rot="MR0">
