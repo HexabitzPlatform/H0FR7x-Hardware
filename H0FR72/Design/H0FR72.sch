@@ -7930,7 +7930,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <wire x1="168.91" y1="8.128" x2="214.63" y2="8.128" width="0.1524" layer="205"/>
 <wire x1="231.14" y1="18.288" x2="231.14" y2="22.86" width="0.1524" layer="205"/>
 <text x="242.6462" y="6.1722" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
-<text x="179.2478" y="11.2014" size="1.9304" layer="101" font="vector">DC Switch / PWM Switch</text>
+<text x="170.9928" y="11.2014" size="1.9304" layer="101" font="vector">20V 20A DC Switch / PWM Switch</text>
 <text x="137.71" y="95.455" size="1.778" layer="95">VDDA Coupling</text>
 </plain>
 <instances>
@@ -14468,7 +14468,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <wire x1="168.91" y1="8.128" x2="214.63" y2="8.128" width="0.1524" layer="205"/>
 <wire x1="231.14" y1="18.288" x2="231.14" y2="22.86" width="0.1524" layer="205"/>
 <text x="242.6462" y="6.1722" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
-<text x="177.9778" y="11.2014" size="1.9304" layer="101" font="vector">DC Switch / PWM Switch</text>
+<text x="172.2628" y="11.2014" size="1.9304" layer="101" font="vector">20V 20A DC Switch / PWM Switch</text>
 <text x="146.05" y="143.51" size="1.778" layer="91">1N4148W-7-F</text>
 <text x="210.82" y="48.26" size="2.54" layer="89" font="vector" ratio="11" distance="46">Gain = 0.125 V/A
         2.5V at 20A</text>
@@ -14476,7 +14476,7 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <text x="113.03" y="132.08" size="1.778" layer="91">1N4148W-7-F</text>
 <text x="132.715" y="143.51" size="1.778" layer="91">18V 0.5W</text>
 <text x="212.725" y="104.775" size="2.54" layer="89" font="vector" ratio="11" distance="46">I_Load = up to 20A</text>
-<text x="130.175" y="156.21" size="1.778" layer="91">check footprint</text>
+<text x="126.365" y="156.21" size="1.778" layer="91">Note! check footprint</text>
 </plain>
 <instances>
 <instance part="Q2" gate="G$1" x="156.845" y="125.095" smashed="yes">
